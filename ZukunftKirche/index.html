@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      
+
+      
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title></title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               
+               <span>ZukunftKirche</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li>
+                     <a href="#home" class="nav__link active-link">Startseite</a>
+                  </li>
+
+                  <li>
+                     <a href="#destination" class="nav__link">Zukunftsprojekte</a>
+                  </li>
+
+                  <li>
+                     <a href="#testimonial" class="nav__link">Schöpfungsentdecker</a>
+                  </li>
+
+                  <li>
+                     <a href="#gallery" class="nav__link">Bibel</a>
+                  </li>
+
+                  <li>
+                     <a href="#join" class="nav__link">Kontakt</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__buttons">
+               <!-- Theme button -->
+               <i class="ri-moon-fill nav__theme" id="theme-button"></i>
+
+               <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-apps-2-fill"></i>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <img src="./assets/img/gallery-img-1.jpg" alt="image" class="home__bg">
+            <div class="home__blur"></div>
+
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">Kirche<br>  Lebendig <br>Gestalten   </h1>
+
+                  <p class="home__description">
+                     Wir sind die Gemeinden Groitzsch & Pegau — zwei Nachbarorte mit einem gemeinsamen Plan: Kirche als Ort der Begegnung, des Miteinanders und der Musik. Unser Projekt bringt Konzerte, Jugendabende und soziale Angebote zusammen. Hier finden Menschen jeden Alters einen Platz, werden gehört und können aktiv mitgestalten.
+                  </p>
+
+                  <a href="#destination" class="button button__opa-30">
+                     Angebote ansehen
+                     <i class="ri-arrow-right-long-line"></i>
+                  </a>
+               </div>
+
+               <div class="home__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <article class="home__article swiper-slide">
+                        <img src="./assets/img/Bild_5.jpg" alt="image" class="home__img">
+                     </article>
+
+                     <article class="home__article swiper-slide">
+                        <img src="./assets/img/Bild_2.jpg" alt="image" class="home__img">
+                     </article>
+
+                     <article class="home__article swiper-slide">
+                        <img src="./assets/img/Bild_15.jpg" alt="image" class="home__img">
+                     </article>
+
+                     <article class="home__article swiper-slide">
+                        <img src="assets/img/Bild_1.jpg" alt="image" class="home__img">
+                     </article>
+                  </div>
+
+                  <!-- Navigation buttons -->
+                  <div class="swiper-button-prev">
+                     <i class="ri-arrow-left-long-line"></i>
+                  </div>
+
+                  <div class="swiper-button-next">
+                     <i class="ri-arrow-right-long-line"></i>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== DESTINATION ====================-->
+         <section class="destination section" id="destination">
+            <h2 class="section__title">Zunkftsprojekte der evangelischen <br> Gemeinden Pegau und Groitzsch</h2>
+
+            <div class="destination__container container grid">
+               <article class="destination__card">
+                  <img src="assets/img/Bild_17.jpg" alt="image" class="destination__img">
+
+                  <div class="destination__data">
+                     <h3 class="destination__subtitle">Konzert und Kultur</h3>
+                     <h2 class="destination__title">Kirche Klingt</h2>
+                     <p class="destination__country">
+                        <i class="ri-map-pin-2-fill"></i>
+                        <span>Kirchpl. 6 04523 Pegau</span>
+                     </p>
+                  </div>
+               </article>
+
+               <article class="destination__card">
+                  <img src="assets/img/Bild_16.jpg" alt="image" class="destination__img">
+
+                  <div class="destination__data">
+                     <h3 class="destination__subtitle">Projektwerkstadt Diakonie</h3>
+                     <h2 class="destination__title">Youth Nights</h2>
+                     <p class="destination__country">
+                        <i class="ri-map-pin-2-fill"></i>
+                        <span>Kirchplatz 7 04523 Pegau</span>
+                     </p>
+                  </div>
+               </article>
+
+               <article class="destination__card">
+                  <img src="assets/img/Bild_18.jpg" alt="image" class="destination__img">
+
+                  <div class="destination__data">
+                     <h3 class="destination__subtitle">Treffpunkt und Soziales</h3>
+                     <h2 class="destination__title">Offenes Wohnzimmer</h2>
+                     <p class="destination__country">
+                        <i class="ri-map-pin-2-fill"></i>
+                        <span>Grecia</span>
+                     </p>
+                  </div>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== TESTIMONIAL ====================-->
+         <section class="testimonial section" id="testimonial">
+            <h2 class="section__title">Zukunftskonzept <br> Kirche im Heute – mit Euch gemeinsam gestalten</h2>
+
+            <div class="testimonial__container container grid">
+               <img src="assets/img/Bild_19.jpg" alt="image" class="testimonial__img">
+
+               <div class="testimonial__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <div class="testimonial__card swiper-slide">
+                        <h2 class="testimonial__title">Was Jugendliche brauchen: <br>Was junge Menschen sich wünschen</h2>
+                        <p class="testimonial__description">
+                           Was junge Menschen sich wünschen<br>
+
+  ✔ moderne Musik & Band<br>
+  ✔ Sprache, die jeder versteht<br>
+  ✔ Themen wie Digitales, Umwelt, Freundschaft<br>
+  ✔ Beteiligung: Technik, Mitgestaltung, Kleingruppen<br>
+  ✔ kreative Gottesdienste (Stationen, Interaktion)<br>
+  <h2 class="testimonial__title">Kirche verstehen und mitreden</h2>
+
+✔ klare Rollen von Pfarrerin / Pfarrer, Ehrenamtlichen, Jugendlichen<br>
+
+✔ transparente Finanzierung & Mitbestimmung<br>
+✔ Bedeutung der Gemeinden vor Ort: Sie sind Herzstück und Mittelpunkt des kirchlichen Lebens<br>
+
+
+                        </p>
+
+                        <div class="testimonial__profile">
+      
+
+                           
+                        </div>
+                     </div>
+
+                     <div class="testimonial__card swiper-slide">
+                        <h2 class="testimonial__title">So sieht Kirche mit Dir aus</h2>
+                        <p class="testimonial__description">
+                           🎸🎥 Ein Gottesdienst mit Band, Videobeiträgen und Austausch in Kleingruppen<br><br>
+🎬💬 Ein Filmabend oder Workshop in der Kirche<br><br>
+📱🎧 Social-Media-Impulse & Podcasts, die Glaubensfragen aufgreifen<br><br>
+🗳🙋 Jugendvertretung, die mitentscheiden darf<br><br>
+⛪🌈 Räume, die offen sind — nicht nur sonntag<br>
+                        </p>
+
+                        <div class="testimonial__profile">
+                           
+
+                           
+                        </div>
+                     </div>
+
+                     <div class="testimonial__card swiper-slide">
+                        <h2 class="testimonial__title">Wir suchen DICH und deine Ideen!</h2>
+                        <p class="testimonial__description">
+                           Wenn du 14–25 Jahre alt bist und Lust hast, mitzugestalten – melde dich bei uns! Egal ob Musik, Technik, Gestaltung oder Ideen – du bist willkommen.<br><br>
+                        
+                           Wir freuen uns sehr auf eure Ideen! Verteilt die Botschaft am Wiprecht-Gymnasium und bei euren Freunden!
+
+                        </p>
+
+                        <div class="testimonial__profile">
+
+
+                           
+                        </div>
+                     </div>
+                  </div>
+                  </section>
+
+
+
+<a href="./assets/img/Unser Zeitplan.pdf" download>
+  <button class="btn_zeitplan">Zeitplan herunterladen</button>
+</a>
+
+
+
+
+
+
+
+
+
+
+<section class="testimonial section">
+   <h2 class="section__title">Die Schöpfungs-Entdecker <br> Ein Projekt für Kinder und Familie</h2>
+
+   <div class="testimonial__container container grid">
+      <img src="assets/img/Bild_15.jpg" alt="image" class="testimonial__img">
+
+      <div class="testimonial__swiper swiper">
+         <div class="swiper-wrapper">
+            <!-- exakt dieselben testimonial__card slides nochmal -->
+            <div class="testimonial__card swiper-slide">
+               <h2 class="testimonial__title">Entdecken. Staunen. Gemeinsam handeln.</h2>
+               <p class="testimonial__description">
+                  „Schöpfungs-Entdecker“ laden Kinder von 6–12 Jahren und ihre Familien ein, Gottes Schöpfung spielerisch zu entdecken, ihre Schönheit zu erleben und gemeinsam Wege zu finden, sie zu bewahren.
+               </p>
+               <div class="testimonial__profile">
+                  <div class="testimonial__info">
+                     ✝ Weil wir Gottes Schöpfung bewahren und Kindern den Glauben lebendig nahebringen wollen.
+                  </div>
+               </div>
+            </div>
+
+            <div class="testimonial__card swiper-slide">
+               <h2 class="testimonial__title">Unsere Ziele</h2>
+               <p class="testimonial__description">
+                  👧🌱 Kinder erleben Freude an Natur und Bewegung<br>
+                  👨‍👩‍👧‍👦⏳ Familien verbringen wertvolle gemeinsame Zeit<br>
+                  ✝🤝 Evangelische und katholische Christen gestalten gemeinsam Zukunft<br>
+                  🌍💡 Nachhaltig, lebendig und hoffnungsvoll handel<br>
+               </p>
+               <div class="testimonial__profile">
+                  <div class="testimonial__info">
+                     ✝ Weil wir Gottes Schöpfung bewahren und Kindern den Glauben lebendig nahebringen wollen.
+                  </div>
+               </div>
+            </div>
+
+            <div class="testimonial__card swiper-slide">
+               <h2 class="testimonial__title">Was dich erwartet</h2>
+               <p class="testimonial__description">
+                  🌳 Natur erleben: Walderkundungen, Spaziergänge, Müllsammelaktionen<br>
+                  🎨 Kreativ werden: Basteln, Nistkästen bauen, Insektenhotel gestalten<br>
+                  🙌 Feste feiern: Open-Air-Gottesdienste, Picknicks, Gemeindefeste<br>
+                  📖 Geschichten hören: Bibelerzählungen mit Musik, Spielen und Aktionen<br>
+               </p>
+               <div class="testimonial__profile">
+                  <div class="testimonial__info">
+                     ✝ Weil wir Gottes Schöpfung bewahren und Kindern den Glauben lebendig nahebringen wollen.
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+                  
+
+
+
+
+                  
+
+                  
+
+                  <!-- Navigation buttons -->
+                  <div class="swiper-button-prev">
+                     <i class="ri-arrow-left-long-line"></i>
+                  </div>
+
+                  <div class="swiper-button-next">
+                     <i class="ri-arrow-right-long-line"></i>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== GALLERY ====================-->
+         <section class="gallery section" id="gallery">
+            <h2 class="section__title">Was die Bibel über die Kirche sagt</h2>
+
+            <div class="gallery__container container grid">
+               <article class="gallery__card">
+                  <img src="assets/img/gallery-img-1.jpg" alt="image" class="gallery__img">
+                  <div class="gallery__shadow"></div>
+
+                  <div class="gallery__data">
+                     <h3 class="gallery__subtitle">1 Kor 3,11; Eph 2,19ff</h3>
+                     <h2 class="gallery__title">Die Kirche ist kein Zufallsprodukt, sondern auf einem festen Fundament gebaut: Jesus Christus selbst. Er ist das Fundament und der Eckstein, auf dem alles ruht. Wir sind nicht Fremde oder Einzelkämpfer, sondern eine Gemeinschaft, die zusammen Gottes Haus bildet. Kirche bedeutet: Wir gehören dazu, wir sind getragen und verbunden – egal, woher wir kommen.</h2>
+                  </div>
+               </article>
+
+               <article class="gallery__card">
+                  <img src="assets/img/gallery-img-2.jpg" alt="image" class="gallery__img">
+                  <div class="gallery__shadow"></div>
+
+                  <div class="gallery__data">
+                     <h3 class="gallery__subtitle">1 Petr 2,9f</h3>
+                     <h2 class="gallery__title">Die Kirche ist eine Gemeinschaft von „auserwählten“ Menschen, die Licht in die Welt tragen sollen. Sie ist nicht einfach nur ein Verein, sondern ein Volk, das den Glauben sichtbar macht. Kirche heißt: Wir sind berufen, Gottes Liebe und Gnade weiterzutragen und nicht nur für uns selbst zu leben.</h2>
+                  </div>
+               </article>
+
+               <article class="gallery__card">
+                  <img src="assets/img/gallery-img-3.jpg" alt="image" class="gallery__img">
+                  <div class="gallery__shadow"></div>
+
+                  <div class="gallery__data">
+                     <h3 class="gallery__subtitle">Mk 3,34f; Apg 4,32</h3>
+                     <h2 class="gallery__title">Jesus zeigt, dass seine wahre Familie die Menschen sind, die Gottes Willen tun. Und in der Apostelgeschichte sehen wir, wie die ersten Christen alles miteinander teilten und „ein Herz und eine Seele“ waren. Kirche bedeutet: echte Gemeinschaft, in der niemand allein gelassen wird und in der wir füreinander Verantwortung übernehmen.</h2>
+                  </div>
+               </article>
+
+               <article class="gallery__card">
+                  <img src="assets/img/Bild_23.jpg" alt="image" class="gallery__img">
+                  <div class="gallery__shadow"></div>
+
+                  <div class="gallery__data">
+                     <h3 class="gallery__subtitle">Mt 10,16</h3>
+                     <h2 class="gallery__title">Jesus schickt die Jünger wie Schafe mitten unter die Wölfe. Das ist ein realistisches Bild: Kirche lebt nicht in einer heilen Welt, sondern mitten in Herausforderungen, Anfeindungen und Spannungen. Doch Jesus ermutigt uns: mit Klugheit und Sanftmut können wir bestehen. Kirche bedeutet: wir sind gesendet, auch wenn es manchmal schwierig wird – wir gehen nicht allein.</h2>
+                  </div>
+               </article>
+               <article class="gallery__card">
+                  <img src="assets/img/Bild_21.jpg" alt="image" class="gallery__img">
+                  <div class="gallery__shadow"></div>
+
+                  <div class="gallery__data">
+                     <h3 class="gallery__subtitle">Mt 28,18-20; Joh 13,34</h3>
+                     <h2 class="gallery__title">Jesus gibt seiner Kirche einen klaren Auftrag: Geht hinaus, tauft, lehrt – und liebt einander, wie ich euch geliebt habe. Kirche bedeutet: Wir bleiben nicht unter uns, sondern öffnen uns. Wir tragen die Botschaft weiter und leben sie durch unsere Liebe zueinander. Die Kirche ist also nicht Selbstzweck, sondern Sendung.</h2>
+                  </div>
+               </article>
+               <article class="gallery__card">
+                  <img src="assets/img/Bild_1.jpg" alt="image" class="gallery__img">
+                  <div class="gallery__shadow"></div>
+
+                  <div class="gallery__data">
+                     <h3 class="gallery__subtitle">Röm 6,4; Apg 2,42; 1 Kor 10,16f</h3>
+                     <h2 class="gallery__title">Die Taufe schenkt uns ein neues Leben, das Abendmahl verbindet uns mit Christus, und die Gemeinschaft der ersten Christen war geprägt von Lehre, Gebet und Zusammenhalt. Kirche bedeutet: wir teilen unser Leben, wir feiern und wir glauben gemeinsam. Sie ist ein Ort, an dem wir Kraft schöpfen und immer wieder neu beginnen können.</h2>
+                  </div>
+               </article>
+               <article class="gallery__card">
+                  <img src="assets/img/Bild_20.jpg" alt="image" class="gallery__img">
+                  <div class="gallery__shadow"></div>
+
+                  <div class="gallery__data">
+                     <h3 class="gallery__subtitle">Mk 1,14f; Mt 5,13-16</h3>
+                     <h2 class="gallery__title">Mit Jesu Worten beginnt die Verkündigung: „Die Zeit ist erfüllt, das Reich Gottes ist nahe.“ Zugleich sagt er: „Ihr seid das Salz der Erde und das Licht der Welt.“ Kirche bedeutet also: Wir sind berufen, Hoffnung zu verbreiten, zu handeln, Gutes sichtbar zu machen. Kirche ist keine Institution zum Zuschauen, sondern eine Bewegung, die das Leben heller und geschmackvoller macht.</h2>
+                  </div>
+               </article>
+               <article class="gallery__card">
+                  <img src="assets/img/Bild_22.jpg" alt="image" class="gallery__img">
+                  <div class="gallery__shadow"></div>
+
+                  <div class="gallery__data">
+                     <h3 class="gallery__subtitle">Mk 14,24; Jer 31,31-34</h3>
+                     <h2 class="gallery__title">Im Abendmahl stiftet Jesus den neuen Bund: „Das ist mein Blut, das für viele vergossen wird.“ Jeremia hatte schon angekündigt, dass Gott einen neuen Bund schließen wird, der nicht mehr auf Steintafeln, sondern in unsere Herzen geschrieben ist. Kirche bedeutet: Wir leben aus dieser neuen Beziehung zu Gott – eine Beziehung, die auf Vergebung, Erinnerung und Liebe gründet.</h2>
+                  </div>
+               </article>
+               <article class="gallery__card">
+                  <img src="assets/img/gallery-img-4.jpg" alt="image" class="gallery__img">
+                  <div class="gallery__shadow"></div>
+
+                  <div class="gallery__data">
+                     <h3 class="gallery__subtitle">1 Kor 12,4-7; Röm 12,4-9</h3>
+                     <h2 class="gallery__title">Die Kirche ist wie ein Körper mit vielen Gliedern: Jeder hat eine Gabe, jeder eine Aufgabe, und doch bilden wir ein Ganzes. Vielfalt ist kein Problem, sondern ein Geschenk. Kirche bedeutet: Wir brauchen einander – jede und jeden Einzelnen. So entsteht ein lebendiger Leib Christi, in dem niemand überflüssig ist.</h2>
+                  </div>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== JOIN ====================-->
+         <!-- Contact -->
+<section class="contact_section" id="contact">
+    <div class="contact_all1">
+        <div class="contact_all2">
+            <div class="contact-intro">
+                <h2 class="contact_h">KONTAKT</h2>
+                <p class="contact-description">
+                    Los geht's! Schreibt uns!👇
+                </p>
+            </div>
+
+            <form class="contact-form" method="POST" action="https://api.web3forms.com/submit">
+                <input type="hidden" name="access_key" value="f095bd54-292e-4de0-9dee-d9810eafc388" />
+                <input type="hidden" name="subject" value="Neue Kontaktformular-Anfrage von meiner Webseite" />
+                <input type="hidden" name="from_name" value="Meine Webseite" />
+
+                <div class="form-group-container">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input id="name" name="name" class="form-input" placeholder="Dein Name" type="text" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">E-Mail</label>
+                        <input id="email" name="email" class="form-input" placeholder="Deine E-Mail" type="email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Nachricht</label>
+                        <textarea class="form-textarea" id="message" name="message" placeholder="Deine Nachricht" required></textarea>
+                    </div>
+                </div>
+                <button class="form-submit" type="submit">Nachricht senden</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="fazit_section">
+   <h2>Unser Fazit zur Kreativen Aufgabe zum Thema: "Kirche"</h2>
+   <p class="p_fazit">Die Problematik der Aufgabe war die vielfältige Bedeutung der Kirche in eine Zukunftskonzept zu reduzieren. Deswegen hat sich unsere Gruppe es sich zur Aufgabe gemacht diese Komplexität in drei verschiedene Teilaspekte aufzuteilen, die alle zum großen Zukunftskonzept zusammen zu führen. <br><br>
+1. Die schnelle Lösungen von Zukunftsorten mit entsprechenden Angeboten für alle Menschen.<br>
+2. Ein konkretes Zukunftsprojekt, welches Kinder und Familie weiter miteinander verstärkt und dabei Gottes wertvolle Schöpfung bewahrt.<br>
+3. Ein Zukunftskonzept welches Jugendliche anspricht, um ihnen die Bedeutung der Kirche näherzubringen und ihnen damit Verantwortung für ein hochwertvollen Aspekt unserer Gemeinschaft überträgt.</p>
+
+</section>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <a href="#" class="footer__logo">
+               
+               <span>ZukunftKirche</span>
+            </a>
+
+            <div class="footer__content grid">
+               <div>
+                  <h3 class="footer__title">Startseite</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="#" class="footer__link">Über uns</a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">weiteres</a>
+                     </li>
+                     
+                     
+                  </ul>
+               </div>
+
+               <div class="footer__content grid">
+               <div>
+                  <h3 class="footer__title">Dokumentaion</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="./assets/img/Protokoll zur Dokumentation der Kollaboration.pdf" download class="footer_link"><button class="footer_link2">Protokoll</button>
+
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">weiteres</a>
+                     </li>
+                     
+                     
+                  </ul>
+               </div>
+
+               
+               <div>
+                  <h3 class="footer__title">Impressum</h3>
+
+                  <ul class="footer__links">
+                     <li>
+                        <a href="./assets/img/Quellenangabe des Zukunftkonzeptes.pdf" download class="footer_link"><button class="footer_link2">Quellen</button>
+
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="footer__link">Angebote</a>
+                     </li>
+
+                     
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Social</h3>
+
+                  <div class="footer__social">
+                     <a href="https://www.facebook.com/" target="blank" class="footer_social-link">
+                        <i class="ri-facebook-circle-fill"></i>
+                     </a>
+
+                     <a href="https://www.instagram.com/" target="blank" class="footer_social-link">
+                        <i class="ri-instagram-fill"></i>
+                     </a>
+
+                     <a href="https://twitter.com/" target="blank" class="footer_social-link">
+                        <i class="ri-twitter-x-fill"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         <span class="footer__copy">
+            &#169; Leopold Spannenberger und Andre Roik
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
